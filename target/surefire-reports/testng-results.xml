@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="61079" started-at="2020-06-01T10:21:21 BST" finished-at="2020-06-01T10:22:22 BST">
+  <suite name="Surefire suite" duration-ms="70319" started-at="2020-06-02T15:39:19 BST" finished-at="2020-06-02T15:40:30 BST">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="61079" started-at="2020-06-01T10:21:21 BST" finished-at="2020-06-01T10:22:22 BST">
+    <test name="Surefire test" duration-ms="70319" started-at="2020-06-02T15:39:19 BST" finished-at="2020-06-02T15:40:30 BST">
       <class name="org.example.Testsuit">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="openBrowser" is-config="true" duration-ms="14818" started-at="2020-06-01T10:21:21 BST" finished-at="2020-06-01T10:21:36 BST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="openBrowser" is-config="true" duration-ms="10861" started-at="2020-06-02T15:39:19 BST" finished-at="2020-06-02T15:39:30 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="RegisterOnRahulShettyAcadamy()[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="RegisterOnRahulShettyAcadamy" duration-ms="36270" started-at="2020-06-01T10:21:36 BST" finished-at="2020-06-01T10:22:12 BST">
+        <test-method status="PASS" signature="ClickRadioButtonOnPracticePage()[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="ClickRadioButtonOnPracticePage" duration-ms="687" started-at="2020-06-02T15:39:30 BST" finished-at="2020-06-02T15:39:31 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRadioButtonOnPracticePage -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="closeBrowser" is-config="true" duration-ms="861" started-at="2020-06-02T15:39:31 BST" finished-at="2020-06-02T15:39:32 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickRadioButtonOnPracticePage status=SUCCESS method=Testsuit.ClickRadioButtonOnPracticePage()[pri:0, instance:org.example.Testsuit@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="openBrowser" is-config="true" duration-ms="9186" started-at="2020-06-02T15:39:32 BST" finished-at="2020-06-02T15:39:41 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="RegisterOnRahulShettyAcadamy()[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="RegisterOnRahulShettyAcadamy" duration-ms="36992" started-at="2020-06-02T15:39:41 BST" finished-at="2020-06-02T15:40:18 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterOnRahulShettyAcadamy -->
-        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="closeBrowser" is-config="true" duration-ms="9944" started-at="2020-06-01T10:22:12 BST" finished-at="2020-06-01T10:22:22 BST">
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="closeBrowser" is-config="true" duration-ms="820" started-at="2020-06-02T15:40:18 BST" finished-at="2020-06-02T15:40:19 BST">
           <params>
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=RegisterOnRahulShettyAcadamy status=SUCCESS method=Testsuit.RegisterOnRahulShettyAcadamy()[pri:0, instance:org.example.Testsuit@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="openBrowser" is-config="true" duration-ms="9090" started-at="2020-06-02T15:40:19 BST" finished-at="2020-06-02T15:40:28 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="selectAndUnSelectCheckboxOnPracticePage()[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="selectAndUnSelectCheckboxOnPracticePage" duration-ms="1003" started-at="2020-06-02T15:40:28 BST" finished-at="2020-06-02T15:40:29 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAndUnSelectCheckboxOnPracticePage -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:org.example.Testsuit@25bbe1b6]" name="closeBrowser" is-config="true" duration-ms="767" started-at="2020-06-02T15:40:29 BST" finished-at="2020-06-02T15:40:30 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectAndUnSelectCheckboxOnPracticePage status=SUCCESS method=Testsuit.selectAndUnSelectCheckboxOnPracticePage()[pri:0, instance:org.example.Testsuit@25bbe1b6] output={null}]]]>
               </value>
             </param>
           </params>
